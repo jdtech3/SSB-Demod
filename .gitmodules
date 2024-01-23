@@ -1,0 +1,3 @@
+[submodule "instrument-automation"]
+	path = instrument-automation
+	url = https://github.com/jdtech3/instrument-automation.git
