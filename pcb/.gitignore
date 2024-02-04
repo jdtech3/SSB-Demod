@@ -1,0 +1,10 @@
+# Altium
+**/__Previews/
+**/History/
+Project\ Logs*/
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbStructure
+
+# Windows
+*desktop.ini
