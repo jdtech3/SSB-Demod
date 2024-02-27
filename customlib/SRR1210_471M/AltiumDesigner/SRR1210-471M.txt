@@ -1,0 +1,80 @@
+# Created by Ultra Librarian 8.3.350 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "IND_BOURNS_SRR1210")
+Pad (Name "1") (Location -198.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 110, 209) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 198.5, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 110, 209) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-141.5, 244)
+Point (141.5, 244)
+Point (141.5, -244)
+Point (-141.5, -244)
+EndPolygon
+Line (Width 6) (Start -263.5, -114.5) (End -263.5, 114.5) (Layer Mechanical15) 
+Line (Width 6) (Start -263.5, 114.5) (End -256, 114.5) (Layer Mechanical15) 
+Line (Width 6) (Start 256, 114.5) (End 263.5, 114.5) (Layer Mechanical15) 
+Line (Width 6) (Start 263.5, 114.5) (End 263.5, -114.5) (Layer Mechanical15) 
+Line (Width 6) (Start 263.5, -114.5) (End 256, -114.5) (Layer Mechanical15) 
+Line (Width 6) (Start -256, -114.5) (End -263.5, -114.5) (Layer Mechanical15) 
+Line (Width 6) (Start -256, -256) (End -256, -114.5) (Layer Mechanical15) 
+Line (Width 6) (Start -256, 114.5) (End -256, 256) (Layer Mechanical15) 
+Line (Width 6) (Start -256, 256) (End 256, 256) (Layer Mechanical15) 
+Line (Width 6) (Start 256, 256) (End 256, 114.5) (Layer Mechanical15) 
+Line (Width 6) (Start 256, -114.5) (End 256, -256) (Layer Mechanical15) 
+Line (Width 6) (Start 256, -256) (End -256, -256) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-263.5, -114.5)
+Point (-263.5, 114.5)
+Point (-256, 114.5)
+Point (-256, 256)
+Point (256, 256)
+Point (256, 114.5)
+Point (263.5, 114.5)
+Point (263.5, -114.5)
+Point (256, -114.5)
+Point (256, -256)
+Point (-256, -256)
+Point (-256, -114.5)
+EndPolygon
+Line (Width 6) (Start 251, 117.60000038) (End 251, 251) (Layer TopOverlay) 
+Line (Width 6) (Start -251, -251) (End 251, -251) (Layer TopOverlay) 
+Line (Width 6) (Start 251, -251) (End 251, -117.60000038) (Layer TopOverlay) 
+Line (Width 6) (Start 251, 251) (End -251, 251) (Layer TopOverlay) 
+Line (Width 6) (Start -251, 251) (End -251, 117.60000038) (Layer TopOverlay) 
+Line (Width 6) (Start -251, -117.60000038) (End -251, -251) (Layer TopOverlay) 
+Line (Width 1) (Start -246, -246) (End 246, -246) (Layer Mechanical13) 
+Line (Width 1) (Start 246, -246) (End 246, 246) (Layer Mechanical13) 
+Line (Width 1) (Start 246, 246) (End -246, 246) (Layer Mechanical13) 
+Line (Width 1) (Start -246, 246) (End -246, -246) (Layer Mechanical13) 
+Arc (Width 0) (Radius 0) (Location -243, 0) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Step (Name IND_BOURNS_SRR1210.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "SRR1210-471M") (PartCount 1) (DesPrefix "L?")
+Pin (Location 500, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 200, 0) (End 200, 50) (Part 1)
+Line (Width 8) (Start 300, 0) (End 300, 50) (Part 1)
+Line (Width 8) (Start 500, 0) (End 500, 50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 100, 50) (Part 1)
+Line (Width 8) (Start 400, 0) (End 400, 50) (Part 1)
+Arc (Width 10) (Radius 50) (Location 250, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 50) (Location 150, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 50) (Location 350, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 10) (Radius 50) (Location 450, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Bourns Electronics") (Part 1)
+Parameter (Name "RefDes") (Location 275, 200) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Parameter (Name "Type") (Location 275, -225) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "IND_BOURNS_SRR1210")
+EndComponent
+EndComponents

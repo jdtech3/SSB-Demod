@@ -1,0 +1,95 @@
+# Created by Ultra Librarian 8.3.350 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "IND_ASPI-0630LR_ABR")
+Pad (Name "1") (Location -119.25, 0) (Surface True) (Rotation 0) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 92.5, 134) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location 119.25, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 92.5, 134) (Shape Rectangular) (Layer Top)
+EndPad
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-81, 69)
+Point (81, 69)
+Point (81, -69)
+Point (-81, -69)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-133, 129)
+Point (133, 129)
+Point (133, 69)
+Point (-133, 69)
+EndPolygon
+Polygon (PointCount 4) (Type KeepOut) (Layer TopLayer) 
+Point (-133, -69)
+Point (133, -69)
+Point (133, -129)
+Point (-133, -129)
+EndPolygon
+Line (Width 6) (Start -175.5, -77) (End -175.5, 77) (Layer Mechanical15) 
+Line (Width 6) (Start -175.5, 77) (End -145, 77) (Layer Mechanical15) 
+Line (Width 6) (Start 145, 77) (End 175.5, 77) (Layer Mechanical15) 
+Line (Width 6) (Start 175.5, 77) (End 175.5, -77) (Layer Mechanical15) 
+Line (Width 6) (Start 175.5, -77) (End 145, -77) (Layer Mechanical15) 
+Line (Width 6) (Start -145, -77) (End -175.5, -77) (Layer Mechanical15) 
+Line (Width 6) (Start -145, -141) (End -145, -77) (Layer Mechanical15) 
+Line (Width 6) (Start -145, 77) (End -145, 141) (Layer Mechanical15) 
+Line (Width 6) (Start -145, 141) (End 145, 141) (Layer Mechanical15) 
+Line (Width 6) (Start 145, 141) (End 145, 77) (Layer Mechanical15) 
+Line (Width 6) (Start 145, -77) (End 145, -141) (Layer Mechanical15) 
+Line (Width 6) (Start 145, -141) (End -145, -141) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-175.5, -77)
+Point (-175.5, 77)
+Point (-145, 77)
+Point (-145, 141)
+Point (145, 141)
+Point (145, 77)
+Point (175.5, 77)
+Point (175.5, -77)
+Point (145, -77)
+Point (145, -141)
+Point (-145, -141)
+Point (-145, -77)
+EndPolygon
+Line (Width 6) (Start -283.25, 0) (End -313.25, 0) (Layer TopOverlay) 
+Line (Width 6) (Start -298.25, 15) (End -298.25, -15) (Layer TopOverlay) 
+Line (Width 6) (Start -140, -136) (End 140, -136) (Layer TopOverlay) 
+Line (Width 6) (Start 140, -136) (End 140, -80.10000038) (Layer TopOverlay) 
+Line (Width 6) (Start 140, 136) (End -140, 136) (Layer TopOverlay) 
+Line (Width 6) (Start -140, 136) (End -140, 80.10000038) (Layer TopOverlay) 
+Line (Width 6) (Start -140, -80.10000038) (End -140, -136) (Layer TopOverlay) 
+Line (Width 6) (Start 140, 80.10000038) (End 140, 136) (Layer TopOverlay) 
+Line (Width 1) (Start -283.25, 0) (End -313.25, 0) (Layer Mechanical13) 
+Line (Width 1) (Start -298.25, 15) (End -298.25, -15) (Layer Mechanical13) 
+Line (Width 1) (Start -135, -131) (End 135, -131) (Layer Mechanical13) 
+Line (Width 1) (Start 135, -131) (End 135, 131) (Layer Mechanical13) 
+Line (Width 1) (Start 135, 131) (End -135, 131) (Layer Mechanical13) 
+Line (Width 1) (Start -135, 131) (End -135, -131) (Layer Mechanical13) 
+Step (Name IND_ASPI-0630LR_ABR.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "ASPI-0630LR-150M-T15") (PartCount 1) (DesPrefix "L?")
+Pin (Location 500, 0) (Rotation 0) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "1") (Name Hidden "1") (PinSwap 0) (PartSwap 1) (PinSeq 1) (Part 1)
+Pin (Location 100, 0) (Rotation 180) (PinType Passive) (Length 100) (Width 0) (Designator Hidden "2") (Name Hidden "2") (PinSwap 1) (PartSwap 1) (PinSeq 2) (Part 1)
+Line (Width 8) (Start 200, 0) (End 200, 50) (Part 1)
+Line (Width 8) (Start 300, 0) (End 300, 50) (Part 1)
+Line (Width 8) (Start 500, 0) (End 500, 50) (Part 1)
+Line (Width 8) (Start 100, 0) (End 100, 50) (Part 1)
+Line (Width 8) (Start 400, 0) (End 400, 50) (Part 1)
+Arc (Width 8) (Radius 50) (Location 250, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 8) (Radius 50) (Location 150, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 8) (Radius 50) (Location 350, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Arc (Width 8) (Radius 50) (Location 450, 50) (StartAngle 0) (EndAngle 180) (Part 1)
+Parameter (Name "Type") (Location 275, -225) (Height 137) (Rotation 0) (Justification Center) (Value "Fixed Inductors") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Abracon") (Part 1)
+Parameter (Name "RefDes") (Location 275, 200) (Height 137) (Rotation 0) (Justification Center) (Value "") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "IND_ASPI-0630LR_ABR")
+EndComponent
+EndComponents

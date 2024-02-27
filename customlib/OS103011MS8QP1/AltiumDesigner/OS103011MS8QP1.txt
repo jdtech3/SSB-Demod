@@ -1,0 +1,91 @@
+# Created by Ultra Librarian 8.3.350 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "DIP4_SP3T-TOP_4P3X8P6_CNK")
+Pad (Name "1") (Location 0, 0) (HoleSize 31) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -25.5)
+PadShape (Size 51, 51) (Shape Rectangular) (Layer Top)
+PadShape (Size 51, 51) (Shape Rectangular) (Layer Bottom)
+EndPad
+Pad (Name "2") (Location 0, -157.4803009) (HoleSize 31) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -25.5)
+PadShape (Size 51, 51) (Shape Rounded) (Layer Top)
+PadShape (Size 51, 51) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "3") (Location 0, -236.2205009) (HoleSize 31) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -25.5)
+PadShape (Size 51, 51) (Shape Rounded) (Layer Top)
+PadShape (Size 51, 51) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "4") (Location 0, -314.9606009) (HoleSize 31) (Surface False) (Rotation 0) (ExpandMask 0) (ExpandPaste -25.5)
+PadShape (Size 51, 51) (Shape Rounded) (Layer Top)
+PadShape (Size 51, 51) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "6") (Location 0, 82.67720032) (HoleSize 59) (Surface False) (Rotation 90) (ExpandMask -39.5) (ExpandPaste -39.5)
+PadShape (Size 79, 79) (Shape Rounded) (Layer Top)
+PadShape (Size 79, 79) (Shape Rounded) (Layer Bottom)
+EndPad
+Pad (Name "7") (Location 0, -397.63780212) (HoleSize 59) (Surface False) (Rotation 90) (ExpandMask -39.5) (ExpandPaste -39.5)
+PadShape (Size 79, 79) (Shape Rounded) (Layer Top)
+PadShape (Size 79, 79) (Shape Rounded) (Layer Bottom)
+EndPad
+Line (Width 6) (Start -94.5, -415.4803009) (End 94.5, -415.4803009) (Layer Mechanical15) 
+Line (Width 6) (Start 94.5, -415.4803009) (End 94.5, 100.5196991) (Layer Mechanical15) 
+Line (Width 6) (Start 94.5, 100.5196991) (End -94.5, 100.5196991) (Layer Mechanical15) 
+Line (Width 6) (Start -94.5, 100.5196991) (End -94.5, -415.4803009) (Layer Mechanical15) 
+Polygon (PointCount 4) (Layer Mechanical15) 
+Point (-94.5, -415.4803009)
+Point (-94.5, 100.5196991)
+Point (94.5, 100.5196991)
+Point (94.5, -415.4803009)
+EndPolygon
+Line (Width 1) (Start -39.5, -277.4803009) (End -39.5, -37.4803009) (Layer Mechanical13) 
+Line (Width 1) (Start -39.5, -37.4803009) (End 39.5, -37.4803009) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -37.4803009) (End 39.5, -277.4803009) (Layer Mechanical13) 
+Line (Width 1) (Start 39.5, -277.4803009) (End -39.5, -277.4803009) (Layer Mechanical13) 
+Line (Width 1) (Start -84.5, -405.4803009) (End 84.5, -405.4803009) (Layer Mechanical13) 
+Line (Width 1) (Start 84.5, -405.4803009) (End 84.5, 90.5196991) (Layer Mechanical13) 
+Line (Width 1) (Start 84.5, 90.5196991) (End -84.5, 90.5196991) (Layer Mechanical13) 
+Line (Width 1) (Start -84.5, 90.5196991) (End -84.5, -405.4803009) (Layer Mechanical13) 
+Polygon (PointCount 4) (Layer Mechanical13) 
+Point (-39.5, -277.4803009)
+Point (-39.5, -157.4803009)
+Point (39.5, -157.4803009)
+Point (39.5, -277.4803009)
+EndPolygon
+Text (Location -82, -25) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value "*")
+Line (Width 6) (Start -89.5, -410.4803009) (End -51.00813921, -410.4803009) (Layer TopOverlay) 
+Line (Width 6) (Start 89.5, -410.4803009) (End 89.5, 95.5196991) (Layer TopOverlay) 
+Line (Width 6) (Start 89.5, 95.5196991) (End 51.00813921, 95.5196991) (Layer TopOverlay) 
+Line (Width 6) (Start -89.5, 95.5196991) (End -89.5, -410.4803009) (Layer TopOverlay) 
+Line (Width 6) (Start -51.00813921, 95.5196991) (End -89.5, 95.5196991) (Layer TopOverlay) 
+Line (Width 6) (Start 51.00813921, -410.4803009) (End 89.5, -410.4803009) (Layer TopOverlay) 
+Text (Location -117, -25) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "*")
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "OS103011MS8QP1") (PartCount 1) (DesPrefix "SW?")
+Pin (Location 300, 0) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "1") (Name Hidden "1") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Passive) (Length 300) (Width 0) (Designator Visible "2") (Name Hidden "2") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 1300, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "3") (Name Hidden "3") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 1300, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "4") (Name Hidden "4") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Line (Width 5) (Start 300, 0) (End 750, 0) (Part 1)
+Line (Width 5) (Start 1300, -100) (End 910, -100) (Part 1)
+Line (Width 5) (Start 1300, 0) (End 910, 0) (Part 1)
+Line (Width 5) (Start 762.5, -12.5) (End 781.25, -56.25) (Part 1)
+Line (Width 5) (Start 300, -100) (End 800, -100) (Part 1)
+Line (Width 5) (Start 800, -60) (End 800, -100) (Part 1)
+Line (Width 5) (Start 925, -50) (End 812.5, -50) (Part 1)
+Rectangle (Width 5) (Start 300, -300) (End 1300, 200) (Part 1)
+Arc (Width 5) (Radius 10) (Location 900, 0) (StartAngle 0) (EndAngle 0) (Part 1)
+Arc (Width 5) (Radius 10) (Location 900, -100) (StartAngle 0) (EndAngle 0) (Part 1)
+Arc (Width 5) (Radius 10) (Location 800, -50) (StartAngle 270) (EndAngle 270) (Part 1)
+Arc (Width 5) (Radius 10) (Location 760, 0) (StartAngle 0) (EndAngle 0) (Part 1)
+Parameter (Name "Type") (Location 800, 300) (Height 82) (Rotation 0) (Justification Center) (Value "Slide Switches") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "C&K Components") (Part 1)
+Parameter (Name "RefDes") (Location 800, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "DIP4_SP3T-TOP_4P3X8P6_CNK")
+EndComponent
+EndComponents
