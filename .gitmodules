@@ -1,6 +1,8 @@
 [submodule "instrument-automation"]
 	path = instrument-automation
 	url = https://github.com/jdtech3/instrument-automation.git
+	branch = main
 [submodule "ece295lib"]
 	path = ece295lib
 	url = https://github.com/svhum/ece295lib.git
+	branch = main
