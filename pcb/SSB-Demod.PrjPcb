@@ -319,7 +319,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ROMAHFUN
 
 [Document17]
 DocumentPath=..\customlib\Test Points\TestPoints.SchLib
@@ -336,7 +336,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XNADWMIY
 
 [Document18]
 DocumentPath=..\customlib\ul_MAX9722AEUE-\AltiumDesigner\MAX9722AEUE&plus_.PcbLib
@@ -458,7 +458,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document25]
-DocumentPath=..\customlib\SRR1206_470YL\AltiumDesigner\SRR1206-470YL.PcbLib
+DocumentPath=..\customlib\SRR4028_470Y\AltiumDesigner\SRR4028-470Y.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -475,7 +475,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document26]
-DocumentPath=..\customlib\SRR1206_470YL\AltiumDesigner\SRR1206-470YL.SchLib
+DocumentPath=..\customlib\SRR4028_470Y\AltiumDesigner\SRR4028-470Y.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
