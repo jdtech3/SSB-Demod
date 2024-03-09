@@ -37,6 +37,8 @@ IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
+VaultGUID=B512A161-2A9B-4578-93C6-C4CEBBF429DB
+ReleaseVaultName=JD's Workspace
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -251,7 +253,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=PEFIKNNN
 
 [Document13]
 DocumentPath=..\customlib\OS103011MS8QP1\AltiumDesigner\OS103011MS8QP1.SchLib
