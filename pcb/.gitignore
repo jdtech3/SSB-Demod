@@ -6,6 +6,7 @@ Project\ Outputs*/
 *.SchDocPreview
 *.PcbDocPreview
 *.PrjPcbStructure
+Status_Report.txt
 
 # Windows
 *desktop.ini
