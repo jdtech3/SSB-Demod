@@ -583,63 +583,63 @@ DocumentPath=Project Outputs for SSB-Demod\Design Rule Check - SSB-Demod.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\NC Drill\SSB-Demod.DRR
+DocumentPath=NC Drill\SSB-Demod.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Gerber\SSB-Demod.EXTREP
+DocumentPath=Gerber\SSB-Demod.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Gerber\SSB-Demod.GBL
+DocumentPath=Gerber\SSB-Demod.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Gerber\SSB-Demod.GBO
+DocumentPath=Gerber\SSB-Demod.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Gerber\SSB-Demod.GBS
+DocumentPath=Gerber\SSB-Demod.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Gerber\SSB-Demod.GD1
+DocumentPath=Gerber\SSB-Demod.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Gerber\SSB-Demod.GG1
+DocumentPath=Gerber\SSB-Demod.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Gerber\SSB-Demod.GKO
+DocumentPath=Gerber\SSB-Demod.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Gerber\SSB-Demod.GPB
+DocumentPath=Gerber\SSB-Demod.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Gerber\SSB-Demod.GPT
+DocumentPath=Gerber\SSB-Demod.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Gerber\SSB-Demod.GTL
+DocumentPath=Gerber\SSB-Demod.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Gerber\SSB-Demod.GTO
+DocumentPath=Gerber\SSB-Demod.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Gerber\SSB-Demod.GTS
+DocumentPath=Gerber\SSB-Demod.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Gerber\SSB-Demod.RUL
+DocumentPath=Gerber\SSB-Demod.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\NC Drill\SSB-Demod.TXT
+DocumentPath=NC Drill\SSB-Demod.TXT
 DItemRevisionGUID=
 
 [Configuration1]
