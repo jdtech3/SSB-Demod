@@ -14,5 +14,3 @@ To make sure the submodule is also pulled by git, run `git submodule init` and `
 * Joe Dai ([@jdtech3](https://github.com/jdtech3))
 * Luna Sun ([@luna49](https://github.com/luna49))
 * Lance Shih ([@LancelotShih](https://github.com/LancelotShih))
-
-***Note** that although commits show as commited by @jdtech3, all work was shared and commits can be considered as done by the team.*
