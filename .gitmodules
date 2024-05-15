@@ -6,3 +6,6 @@
 	path = ece295lib
 	url = https://github.com/svhum/ece295lib.git
 	branch = main
+[submodule "m3-tests"]
+	path = m3-tests
+	url = https://github.com/svhum/ece295-m3.git
